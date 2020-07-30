@@ -1,0 +1,11 @@
+== About the August 2020 OGC API Sprint
+
+The Open Geospatial Consortium (OGC) invites interested developers to the August 2020 OGC API Sprint, to be held through remote participation/web-conferencing from 10th to 11th August 2020. The sprint will focus on the draft https://ogcapi.ogc.org/coverages[OGC API - Coverages] specification.  The draft OGC API - Coverages - Part 1: Core specification defines a Web API for publishing and accessing coverages that are modeled according to the OGC Coverage Implementation Schema (CIS), for example satellite imagery and digital elevation models. In particular, the sprint will focus on http://docs.opengeospatial.org/DRAFTS/19-087.html[Part 1] of the draft specification.
+
+The draft OGC API - Coverages specification makes it easy for a client to request coverages, changing parameters such as the spatial extent and coordinate reference systems at the time of request. A server that implements the specification provides information about what coverages are available, and the functionality the server offers. OGC API - Coverages is expected to address use cases similar to those addressed by the OGC Web Coverage Service (WCS) standard.
+
+An OGC Sprint is a collaborative and inclusive event driven by innovative and rapid programming with minimum process and organisation constraints to support the development of new applications and open standards. The participants will prototype implementations of the draft OGC API - Coverages specification, identify key requirements and document the requirements.
+
+The sprint will begin at 09:00am EDT on the first day, and end at 05:00pm EDT on the second day.
+
+More information and a registration form can be found at https://portal.ogc.org/public_ogc/register/q3_api.php

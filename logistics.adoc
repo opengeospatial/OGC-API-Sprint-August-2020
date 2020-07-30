@@ -1,0 +1,14 @@
+== Sprint Logistics
+
+*Gotomeeting*
+
+** Meeting Room 1 (GTM1) details sent to registered participants
+
+
+*GitHub*
+
+* Public repo https://github.com/opengeospatial/OGC-API-Sprint-August-2020
+
+*Gitter*
+
+* https://gitter.im/opengeospatial/OGC-API-Sprint-August-2020
