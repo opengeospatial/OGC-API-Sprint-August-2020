@@ -2,7 +2,7 @@
 
 === Focus of the Sprint
 
-* OGC API - Maps
+* OGC API - Coverages
 ** spec http://docs.opengeospatial.org/DRAFTS/19-087.html
 ** repository https://github.com/opengeospatial/ogc_api_coverages
 
