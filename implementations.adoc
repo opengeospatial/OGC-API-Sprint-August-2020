@@ -25,6 +25,9 @@
 |===
 |Implementation | Type | Contact
 
+| https://test.cubewerx.com/cubewerx/cubeserv/demo/ogcapi/Daraa[CubeWerx OGC API test server]
+| Common, Maps, Tiles, Styles, Coverages (GeoTIFF), Features
+| mailto:pomakis@cubewerx.com[Keith Pomakis] or mailto:pvretano@cubewerx.com[Peter Vretanos]
 
 | TBA
 | TBA
