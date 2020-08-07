@@ -13,7 +13,7 @@ All times on the agenda are in UTC-4/EDT (Washington D.C. time).
 3+|*10 August 2020*
 |09:00-09:15 |Welcome & objectives &#10036; | Gobe Hobona
 |09:15-09:30 |Sprint programme & way of working &#10036; |  Gobe Hobona
-|09:30-09:50 |Overview of OGC API - Coverages &#10036; |  Stephan Meissl
+|09:30-09:50 |Overview of OGC API - Coverages &#10036; |  Chuck Heazel and Stephan Meissl
 |Break||
 |10:00-13:00 |Specification development &#10036;| Facilitator:  Stephan Meissl
 |Break| |
