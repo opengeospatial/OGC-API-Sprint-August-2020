@@ -16,8 +16,7 @@ TBA
 
 Once you have logged into the Open Access Hub, you can download sample data covering the link:aoi.adoc[Southern AOI]. The following cart was downloaded from the Copernicus Open Access Hub https://scihub.copernicus.eu/dhus/#/home
 
-[source,xml]
-----
+```xml
 <?xml version="1.0" encoding="UTF-8"?><metalink xmlns="urn:ietf:params:xml:ns:metalink">
     <file name="S2A_MSIL1C_20191231T000241_N0208_R030_T56HKH_20191231T011833.zip">
         <hash type="MD5">4F6561943B3D5F1B6AA161B59DD7E325</hash>
@@ -45,8 +44,7 @@ Once you have logged into the Open Access Hub, you can download sample data cove
         <url>https://scihub.copernicus.eu/dhus/odata/v1/Products('41e37875-1937-41cc-b357-2426ebaad851')/$value</url>
     </file>
 </metalink>
-
-----
+```
 
 Alternatively, you can download sample data covering the Northern AOI such as:
 * https://scihub.copernicus.eu/dhus/odata/v1/Products('e4388aa6-389d-449a-8e68-6a939b594160')/$value
