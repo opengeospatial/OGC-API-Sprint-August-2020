@@ -30,7 +30,7 @@ The Southern AOI has the following polygonal bounds in World Geodetic System 198
 Note that the AOI includes the reported location of the https://en.wikipedia.org/wiki/MV_Wakashio_oil_spill[MV Wakashio incident].
 
 
-=== Northern
+=== Northern AOI
 
 The Northern AOI has the following polygonal bounds in World Geodetic System 1984 (WGS84) longitude-latitude coordinates:
 
