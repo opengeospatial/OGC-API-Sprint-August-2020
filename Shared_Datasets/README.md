@@ -14,7 +14,7 @@ TBA
 
 ## EU ESA Copernicus Open Access Hub
 
-Once you have logged into the Open Access Hub, you can download sample data covering the link:aoi.adoc[Southern AOI]. The following cart was downloaded from the Copernicus Open Access Hub https://scihub.copernicus.eu/dhus/#/home
+Once you have logged into the Open Access Hub, you can download sample data covering the [Southern AOI](https://github.com/opengeospatial/OGC-API-Sprint-August-2020/blob/master/aoi.adoc). The following cart was downloaded from the Copernicus Open Access Hub https://scihub.copernicus.eu/dhus/#/home
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?><metalink xmlns="urn:ietf:params:xml:ns:metalink">
