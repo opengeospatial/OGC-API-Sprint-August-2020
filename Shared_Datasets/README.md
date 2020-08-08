@@ -21,3 +21,7 @@ Once you have logged into the Open Access Hub, you can download sample data such
 ## NASA Open Data
 
 * https://open.nasa.gov/open-data/
+
+## JAXA Data Distribution service
+
+* https://www.eorc.jaxa.jp/en/distribution/
