@@ -1,8 +1,38 @@
-== Optional Area of Interest
+== Optional Areas of Interest
 
-To facilitate the development work during the sprint, the Area of Interest (AOI) presented on this page is provided as a reference for the participants.
+To facilitate the development work during the sprint, the Areas of Interest (AOI) presented on this page are provided as a reference for the participants.
 
-The AOI has the following polygonal bounds in World Geodetic System 1984 (WGS84) longitude-latitude coordinates:
+=== Southern AOI
+
+The Southern AOI has the following polygonal bounds in World Geodetic System 1984 (WGS84) longitude-latitude coordinates:
+
+[source,json]
+----
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 1
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [[[[57.721575333437528, -20.411870691798232], [57.7641655501331, -20.411948695858115], [57.763853533893574, -20.45539695721239], [57.721185313138115, -20.45469492067345], [57.721575333437528, -20.411870691798232]]]]
+            }
+        }
+    ]
+}
+
+
+----
+
+Note that the AOI includes the reported location of the https://en.wikipedia.org/wiki/MV_Wakashio_oil_spill[MV Wakashio incident].
+
+
+=== Northern
+
+The Northern AOI has the following polygonal bounds in World Geodetic System 1984 (WGS84) longitude-latitude coordinates:
 
 [source,json]
 ----
@@ -54,3 +84,5 @@ The AOI has the following polygonal bounds in World Geodetic System 1984 (WGS84)
    ]
 }
 ----
+
+
