@@ -2,4 +2,6 @@
 
 A list of previous OGC sprints and hackathons is available at https://www.ogc.org/projects/initiatives/ogcsprints
 
+ESA Copernicus Open Access Hub, https://scihub.copernicus.eu/dhus/#/home
+
 OS Open Zoomstack, https://os.uk/business-government/products/open-zoomstack
