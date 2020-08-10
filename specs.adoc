@@ -61,9 +61,11 @@ http://www.opengis.net/def/rel/ogc/1.0/data
 
 The issue is that the semantics of the IANA collection link relation do not neatly fit how it has been used.
 
-The link will be 'self'. A specific relation type should be defined. This issue will be refered to the OGC API - Common SWG for discussion. One option would be use geodata, another option would be to use an OGC collection instead of an IANA one.
+The link will be 'self'. A specific relation type should be defined. This issue will be refered to the OGC API - Common SWG for discussion. One option would be use geodata, another option would be to use an OGC collection (http://www.opengis.net/def/rel/ogc/1.0/collection) instead of an IANA one.
 
-http://www.opengis.net/def/rel/ogc/1.0/
+The links would be provided at `/collections`.
+
+
 
 
 
