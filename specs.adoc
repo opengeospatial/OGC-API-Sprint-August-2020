@@ -65,6 +65,8 @@ The link will be 'self'. A specific relation type should be defined. This issue 
 
 The links would be provided at `/collections`.
 
+Everything except the domainset and rangetype will be included in the `/collections`. The `/collections` would also include a link to the full metadata as well as a link to the CIS.
+
 
 
 
