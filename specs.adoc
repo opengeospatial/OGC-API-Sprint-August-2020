@@ -99,10 +99,19 @@ Optional (a server does not have to provide this)
 
 
 
+=== How to handle Bounding Boxes and Subsetting
 
+There was agreement to use the BBOX as specified in OGC API - Common.
 
+Suggestion to return an empty image or 404 if theres no data at all.
 
+Retain the behavior of WCS in that the *subset* needs to contained within the bounds of the Coverage.
 
+Relax the subset behavior to allow filling the area beyond the boundary of the coverage with nodata.
+
+The *BBOX* would also fill the area outside the coverage with nodata values.
+
+Should the client application ask for the data to be filled with nodata? It is the client application decides on which area to request.
 
 
 
