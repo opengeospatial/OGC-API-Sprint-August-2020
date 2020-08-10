@@ -13,3 +13,14 @@
 
 * OpenAPI
 ** spec https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.1.md
+
+=== Media types used for the Sprint
+
+* CIS JSON
+
+`application/json`
+
+
+* CoverageJSON
+
+`application/prs.coverage+json`
