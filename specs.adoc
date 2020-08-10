@@ -71,22 +71,31 @@ Everything except the domainset and rangetype will be included in the `/collecti
 
 http://www.opengis.net/def/rel/ogc/1.0/coverage
 
+Mandatory (not a fixed path, so you have to follow the link relation)
 
 *{datasetAPI}/collections/{coverageId}/coverage/rangeset*
 
 http://www.opengis.net/def/rel/ogc/1.0/coverage-rangeset
 
+Optional (a server does not have to provide this)
+
 *{datasetAPI}/collections/{coverageId}/coverage/rangetype*
 
 http://www.opengis.net/def/rel/ogc/1.0/coverage-rangetype
+
+Mandatory (not a fixed path, at least in CIS JSON, so you have to follow the link relation)
 
 *{datasetAPI}/collections/{coverageId}/coverage/domainset*
 
 http://www.opengis.net/def/rel/ogc/1.0/coverage-domainset
 
+Mandatory (not a fixed path, at least in CIS JSON, so you have to follow the link relation)
+
 *{datasetAPI}/collections/{coverageId}/coverage/metadata*
 
 http://www.opengis.net/def/rel/ogc/1.0/coverage-metadata
+
+Optional (a server does not have to provide this)
 
 
 
