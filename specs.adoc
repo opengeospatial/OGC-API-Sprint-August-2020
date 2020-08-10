@@ -24,3 +24,48 @@
 * CoverageJSON
 
 `application/prs.coverage+json`
+
+
+=== Link relation types
+
+
+*{datasetAPI}/*
+
+Introduce a ‘dataset’ LRT to identify the Landing Page of a dataset.
+
+http://www.opengis.net/def/rel/ogc/1.0/dataset
+
+
+*{datasetAPI}/api* (not a fixed path)
+
+service-desc
+
+
+*{datasetAPI}/api* (not a fixed path)
+
+service-doc
+
+
+*{datasetAPI}/conformance*
+
+http://www.opengis.net/def/rel/ogc/1.0/conformance
+
+
+
+*{datasetAPI}/collections*
+
+http://www.opengis.net/def/rel/ogc/1.0/data
+
+
+*{datasetAPI}/collections/{coverageId}*
+
+The issue is that the semantics of the IANA collection link relation do not neatly fit how it has been used.
+
+The link will be 'self'. A specific relation type should be defined. This issue will be refered to the OGC API - Common SWG for discussion. One option would be use geodata, another option would be to use an OGC collection instead of an IANA one.
+
+http://www.opengis.net/def/rel/ogc/1.0/
+
+
+
+
+
