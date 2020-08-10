@@ -2,6 +2,8 @@
 
 == Immediate Lessons
 
+* The sprint participants identified the need for returning 0D results on a subset. Currently there is no interoperable way to do this, so there is a need for the *Part 1 Subset Conformance class* to support this.
+
 * TBA
 * TBA
 
