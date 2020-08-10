@@ -67,6 +67,33 @@ The links would be provided at `/collections`.
 
 Everything except the domainset and rangetype will be included in the `/collections`. The `/collections` would also include a link to the full metadata as well as a link to the CIS.
 
+*{datasetAPI}/collections/{coverageId}/coverage*
+
+http://www.opengis.net/def/rel/ogc/1.0/coverage
+
+
+*{datasetAPI}/collections/{coverageId}/coverage/rangeset*
+
+http://www.opengis.net/def/rel/ogc/1.0/coverage-rangeset
+
+*{datasetAPI}/collections/{coverageId}/coverage/rangetype*
+
+http://www.opengis.net/def/rel/ogc/1.0/coverage-rangetype
+
+*{datasetAPI}/collections/{coverageId}/coverage/domainset*
+
+http://www.opengis.net/def/rel/ogc/1.0/coverage-domainset
+
+*{datasetAPI}/collections/{coverageId}/coverage/metadata*
+
+http://www.opengis.net/def/rel/ogc/1.0/coverage-metadata
+
+
+
+
+
+
+
 
 
 
