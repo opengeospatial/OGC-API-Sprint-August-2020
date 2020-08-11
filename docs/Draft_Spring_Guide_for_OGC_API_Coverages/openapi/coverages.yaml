@@ -304,7 +304,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://localhost:8080/examples/coverages-sprint/domainSet.yaml
+                $ref: https://raw.githubusercontent.com/opengeospatial/OGC-API-Sprint-August-2020/master/docs/Draft_Spring_Guide_for_OGC_API_Coverages/openapi/schemas/domainSet.yaml
             text/html:
               schema:
                 type: string
@@ -332,7 +332,7 @@ paths:
           content:
             application/geo+json:
               schema:
-                $ref: http://localhost:8080/examples/coverages-sprint/rangeType.yaml
+                $ref: https://raw.githubusercontent.com/opengeospatial/OGC-API-Sprint-August-2020/master/docs/Draft_Spring_Guide_for_OGC_API_Coverages/openapi/schemas/rangeType.yaml
             text/html:
               schema:
                 type: string
@@ -360,7 +360,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://localhost:8080/examples/coverages-sprint/metadata.yaml
+                $ref: https://raw.githubusercontent.com/opengeospatial/OGC-API-Sprint-August-2020/master/docs/Draft_Spring_Guide_for_OGC_API_Coverages/openapi/schemas/metadata.yaml
             text/html:
               schema:
                 type: string
