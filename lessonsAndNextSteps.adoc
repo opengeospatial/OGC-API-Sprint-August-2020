@@ -2,16 +2,38 @@
 
 == Immediate Lessons
 
-* The sprint participants identified the need for returning 0D results on a subset. Currently there is no interoperable way to do this, so there is a need for the *Part 1 Subset Conformance class* to support this. WCS 2.0 currently supports this through `SUBSET=E(10,10)&SUBSET=N(20,20)` or `SUBSET=E(10)&SUBSET=N(20)`.
+* The sprint participants identified the need for returning 0D results on a subset. Currently there is no interoperable way to do this, so there is a need for the *Part 1 Subset Conformance class* to support this. WCS 2.0 currently supports this through `SUBSET=E(10,10)&SUBSET=N(20,20)` or `SUBSET=E(10)&SUBSET=N(20)`. For example, https://test.cubewerx.com/cubewerx/cubeserv/demo/ogcapi/Daraa/collections/Daraa_DTED/coverage?subset=Lon(36.1)
 
-* TBA
-* TBA
+NOTE: A good summary of the first point is in #12 https://github.com/opengeospatial/OGC-API-Sprint-August-2020/issues/12
+
+* There's a potential to extend WKB to support coverages. CubeWerx have a prototype.
+
+* MVT and JSON are valid for some collections and not for others. When using a parameterized OpenAPI definition, there is no way to tell OpenAPI that which parameter values are applicable to which content type.
+
+* There may be a need to allow URNs. Alternatively, we could use prefLabels (e.g. EPSG:4326, ogc:coverage:domainset) through this would need a policy revision. Whichever way we go, there should be a reference to the specification that applies.
+
+* When some schemas are being served through HTTPS and others from HTTP, it causes a Browser Mixed Content problem. There may be a need to make https://schemas.opengis.net. Consider using HTTP Redirect/Proxying.
+
+* `/metadata` is a hook for any domain-specific metadata. But the ``/collections/coverageId` is for CIS metadata.
+
+* The providing all coverage metadata in the /collections response may lead to very large responses that overwhelm a client applications. Then again, only providing a small amount of coverage metadata in the /collections response may lead to the client needing to issue several additional requests to retrieve the additional coverage metadata.
+
+* There's an opportunity for future extensions of OGC API - Coverages to support processes on the coverage through some integration with OGC API - Processes.
+
+* Passing a `subset` parameter to the other OGC APIs as a replacement ...:
+
+- subset/subsettingCRS vs. bbox/bbox-crs/datetime
+- OutputCRS vs CRS.
 
 == Next Steps for the innovation side
 
-* TBA
+* How to integrate OGC API - Processes  and OGC API - Coverages in a single implementation. The demos by Peter and Jerome.
+* Data Science and Analysis Ready Data through OGC API - Coverages and Jupyter. Perhaps development of a Best Practice. See Tom's demo.
+* How to integrate WCPS or a similar language (e.g. OpenEO) into an integration of OGC API - Processes  and OGC API - Coverages.
+
 
 == Next Steps on the standards side
 
-* TBA
-* TBA
+* Finishing of Part 1: Core.
+* OpenAPI definition
+* Speed up the launch of Rel and Media Types registers. 
