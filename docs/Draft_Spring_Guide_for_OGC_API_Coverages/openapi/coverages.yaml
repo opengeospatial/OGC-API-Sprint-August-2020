@@ -58,26 +58,6 @@ paths:
             text/html:
               schema:
                 type: string
-  # GEH - Commenting out /api because the OpenAPI definition would have been retrieved from /api
-  # /api:
-  #  get:
-  #    tags:
-  #      - Capabilities
-  #    summary: API definition
-  #    description: most likely returning the document at hand
-  #    responses:
-  #      "200":
-  #        description: most likely returning the document at hand
-  #        content:
-  #          application/json:
-  #            schema:
-  #              $ref: '#/paths/~1api'
-  #      default:
-  #        description: An error occured.
-  #        content:
-  #          application/json:
-  #            schema:
-  #              $ref: '#/components/schemas/exception'
   /conformance:
     get:
       tags:
