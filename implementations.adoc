@@ -51,9 +51,9 @@
 | Common, Maps, Tiles, Styles, Coverages (PNG), Features, GeoPackage Integration
 | mailto:jeffy@imagemattersllc.com[Jeff Yutzler]
 
-| TBA
-| TBA
-| TBA
+| https://github.com/geopython/OWSLib/tree/oacov[OWSLib]
+| Common, Features, Coverages, Records
+| https://github.com/tomkralidis[Tom Kralidis]
 |===
 
 === Executable Test Suite
