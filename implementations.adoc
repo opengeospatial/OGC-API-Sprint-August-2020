@@ -29,7 +29,7 @@
 | Common, Maps, Tiles, Styles, Coverages (GeoTIFF), Features
 | mailto:pomakis@cubewerx.com[Keith Pomakis] or mailto:pvretano@cubewerx.com[Peter Vretanos]
 
-| https://dev.api.weather.gc.ca/coverages-demo[pygeoapi demo]
+| https://dev.api.weather.gc.ca/coverages-demo[pygeoapi demo] (https://github.com/tomkralidis/pygeoapi/tree/oacov[code])
 | Common, Features, Processes, Coverages
 | https://github.com/tomkralidis[Tom Kralidis]
 
@@ -51,7 +51,7 @@
 | Common, Maps, Tiles, Styles, Coverages (PNG), Features, GeoPackage Integration
 | mailto:jeffy@imagemattersllc.com[Jeff Yutzler]
 
-| https://github.com/geopython/OWSLib/tree/oacov[OWSLib]
+| https://github.com/geopython/OWSLib[OWSLib]
 | Common, Features, Coverages, Records
 | https://github.com/tomkralidis[Tom Kralidis]
 |===
