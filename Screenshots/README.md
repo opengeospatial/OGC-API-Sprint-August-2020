@@ -4,7 +4,7 @@ This folder shows screenshots of implementations.
 
 ### Ecere
 
-#### Accessing CubeWerx Coverages in GNOSIS Cartographer
+#### Accessing elevation coverage from CubeWerx server in GNOSIS Cartographer
 
 ![CubeWerx Coverage in GNOSIS Cartographer](./ecere-CubeWerxCoverages.png)
 
