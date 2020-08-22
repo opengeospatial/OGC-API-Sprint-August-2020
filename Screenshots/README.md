@@ -9,7 +9,7 @@ This folder shows screenshots of implementations.
 ![CubeWerx Coverage in GNOSIS Cartographer](./ecere-CubeWerxCoverages.png)
 
 #### Global elevation coverage (from ViewFinderPanoramas) served by GNOSIS Map Server
-with ESA Gaia's Sky in colour (Gaia Data Processing and Analysis Consortium (DPAC) in background
+with ESA Gaia's Sky in colour (Gaia Data Processing and Analysis Consortium (DPAC)) in background
 
 ![Global elevation coverage](./ecere-GNOSISServerCoverages.png)
 
